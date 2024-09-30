@@ -85,7 +85,7 @@ onMounted(() => {
     </div>
   </div>
   <div class="location" v-if="withinBoundingBox">
-    Hello!
+    You made it!
   </div>
 </template>
 
