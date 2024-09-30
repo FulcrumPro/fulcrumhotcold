@@ -2,7 +2,7 @@
   "name": "fulcrumhotcold",
   "homepage": "https://FulcrumPro.github.io/fulcrumhotcold",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
