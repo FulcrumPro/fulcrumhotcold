@@ -10,7 +10,7 @@ const withinBoundingBox = ref(false);
 const LATITUDE = 44.978977;
 const LONGITUDE = -93.256022;
 const RADIUS_OF_EARTH = 6371; // kilometers
-const BOUNDING_BOX_FEET = 15;
+const BOUNDING_BOX_FEET = 4600;
 
 function error() {
 
@@ -85,7 +85,7 @@ onMounted(() => {
     </div>
   </div>
   <div class="location" v-if="withinBoundingBox">
-    You made it!
+    <img src="..//assets/jollygreenchessboard.png" width="100%;" />
   </div>
 </template>
 
