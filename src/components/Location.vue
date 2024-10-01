@@ -7,10 +7,10 @@ const lat = ref(0);
 const long = ref(0);
 const withinBoundingBox = ref(false);
 
-const LATITUDE = 44.978977;
-const LONGITUDE = -93.256022;
+const LATITUDE = 44.9801098;
+const LONGITUDE = -93.2586175;
 const RADIUS_OF_EARTH = 6371; // kilometers
-const BOUNDING_BOX_FEET = 30;
+const BOUNDING_BOX_FEET = 120;
 
 function error() {
 
@@ -85,7 +85,9 @@ onMounted(() => {
     </div>
   </div>
   <div class="location" v-if="withinBoundingBox">
-    <img src="..//assets/jollygreenchessboard.png" width="100%;" />
+    <img src="../assets/train.png" width="100%;" />
+    <img src="../assets/statue.png" width="100%;" />
+    <img src="../assets/bolt.png" width="100%;" />
   </div>
 </template>
 
