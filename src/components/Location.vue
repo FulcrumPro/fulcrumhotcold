@@ -10,7 +10,7 @@ const withinBoundingBox = ref(false);
 const LATITUDE = 44.9801098;
 const LONGITUDE = -93.2586175;
 const RADIUS_OF_EARTH = 6371; // kilometers
-const BOUNDING_BOX_FEET = 120;
+const BOUNDING_BOX_FEET = 200;
 
 function error() {
 
